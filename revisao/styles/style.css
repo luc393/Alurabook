@@ -1,0 +1,31 @@
+@import url("../styles/heder.css");
+@import url("../styles/banner.css");
+@import url(../styles/carrocel.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(../styles/topico.css);
+@import url("../styles/contato.css");
+@import url(../styles/footer.css);
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja:#EB9B00;
+    --azul-escuro:#002F52;
+    --preto: #000000;
+    --cinza:#858585;
+    --ciza-escuro:#474646;
+    
+    --Fonte-principal:"Poppins", serif;
+    --fonte-secundaria:"Josefin Sans", serif;
+
+
+}
+
+body {
+    background-color:var(--cor-de-fundo);
+    font-family:var(--Fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
+

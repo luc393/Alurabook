@@ -1,0 +1,49 @@
+.hr {
+    margin:0;
+    padding:0;
+}
+.rodape {
+    background-color:var(--branco);
+    padding:2em;
+}
+.rodape__titulo{
+    display:none;
+}
+.lista__item{
+    display:none;
+}
+@media screen and (min-width:1024px) {
+    .rodape {
+        display:flex;
+        justify-content:space-between;
+        font-size:14px;
+    }
+    .rodape__titulo {
+        color:var(--cinza);
+        margin-bottom:1em;
+        text-transform:uppercase;
+        display:block;
+    }
+    .lista__item{
+        display:flex;
+        align-items:center;
+        margin:1em;
+        gap:0.5em;
+        
+        
+    }
+    .rodape__email{
+        font-size:24px;
+    }
+    .lista__link{
+        color:var(--ciza-escuro);
+    }
+}
+
+
+@media screen and (min-width:1728px){
+    .lista__item{
+        border-left: 1px solid var(--cinza);
+        padding-left:1em;
+    }
+}
